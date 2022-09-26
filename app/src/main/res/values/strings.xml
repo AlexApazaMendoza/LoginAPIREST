@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Login API REST</string>
+    <string name="main_login">Login</string>
+    <string name="main_login_text">Log In</string>
+    <string name="hint_email">email</string>
+    <string name="hint_password">Password</string>
 </resources>
