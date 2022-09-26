@@ -1,7 +1,6 @@
-package com.example.stores
+package com.example.loginapirest
 
 import android.app.Application
-import com.example.stores.common.database.ReqResAPI
 
 class LoginApplication: Application() {
 

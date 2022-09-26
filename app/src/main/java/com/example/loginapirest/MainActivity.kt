@@ -7,11 +7,9 @@ import android.view.View
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.example.loginapirest.databinding.ActivityMainBinding
-import com.example.stores.LoginApplication
 import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
-
 
     private lateinit var mainBinding: ActivityMainBinding
 
@@ -46,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         val jsonObjectRequest =
             object : JsonObjectRequest(
-                Request.Method.POST,
+                Method.POST,
                 url,
                 jsonParams,
                 { response ->
